@@ -1,0 +1,4 @@
+<RCC>
+    <qresource prefix="CalcWidget">
+    </qresource>
+</RCC>
