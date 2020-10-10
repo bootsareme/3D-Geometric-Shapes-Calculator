@@ -1,5 +1,5 @@
 # 3D-Geometric-Shapes-Calculator
-Mini widget application that calculates the surface area and volume of common 3D shapes such as cubes, spheres, cones, cylinders, tetrahedrons, and ellipsoids. This project is created by Vincent Zhang using the Qt Framework (C++). (More information can be found in the LICENSE file.)
+Mini widget application that calculates the surface area and volume of common 3D shapes such as cubes, spheres, cones, cylinders, tetrahedrons, and ellipsoids. This project is created by Vincent Zhang using the Qt Framework (C++). (More info can be found in the LICENSE file)
 
 <h1>About</h1>
 
@@ -7,13 +7,13 @@ This project was created with C++ and the Qt Framework. The program can calculat
 
 <h1>Download</h1>
 
-Because this project uses underlying libraries, cloning this repository will result in error. Use the download link provided to download the raw ZIP file for this application. EXTRACT the zip file and start using the application by running *.exe file. If your computer blocks the download, please disable your antivirus software or browser blocks. Click the link below to start downloading.
+Because this project uses underlying libraries, cloning this repository will result in error. Use the download link provided to download the raw ZIP file for this application. EXTRACT the zip file and start using the application by running *.exe file. 
 
 <div>
 <br>
   <strong>↓ ↓ ↓</strong>
   <br>
-<a class="button" href="http://web.vjzcorp.repl.co/assets/color-palette-final_v1.0release.zip" data-color-scheme="no-preference: light; light: dark; dark: dark;" data-icon="octicon-download" aria-label="Download VJZ-Corp/Qt-Color-Palette-Widget on GitHub">Download</a> <br>
+<a class="button" href="https://github.com/VJZ-Corp/3D-Geometric-Shapes-Calculator/files/5360358/3d-geo-calc-release_finalv1.2.5.zip" data-color-scheme="no-preference: light; light: dark; dark: dark;" data-icon="octicon-download" aria-label="Download VJZ-Corp/Qt-Color-Palette-Widget on GitHub">Download</a> <br>
   <strong>↑ ↑ ↑</strong>
 <div>
 <br>
