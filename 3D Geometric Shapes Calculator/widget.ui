@@ -1,2219 +1,2219 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>CalcWidgetClass</class>
- <widget class="QWidget" name="CalcWidgetClass">
-  <property name="geometry">
-   <rect>
-    <x>0</x>
-    <y>0</y>
-    <width>700</width>
-    <height>500</height>
-   </rect>
-  </property>
-  <property name="maximumSize">
-   <size>
-    <width>700</width>
-    <height>500</height>
-   </size>
-  </property>
-  <property name="palette">
-   <palette>
-    <active>
-     <colorrole role="WindowText">
-      <brush brushstyle="SolidPattern">
-       <color alpha="255">
-        <red>0</red>
-        <green>0</green>
-        <blue>0</blue>
-       </color>
-      </brush>
-     </colorrole>
-     <colorrole role="Button">
-      <brush brushstyle="SolidPattern">
-       <color alpha="255">
-        <red>255</red>
-        <green>255</green>
-        <blue>255</blue>
-       </color>
-      </brush>
-     </colorrole>
-     <colorrole role="Light">
-      <brush brushstyle="SolidPattern">
-       <color alpha="255">
-        <red>255</red>
-        <green>255</green>
-        <blue>255</blue>
-       </color>
-      </brush>
-     </colorrole>
-     <colorrole role="Midlight">
-      <brush brushstyle="SolidPattern">
-       <color alpha="255">
-        <red>255</red>
-        <green>255</green>
-        <blue>255</blue>
-       </color>
-      </brush>
-     </colorrole>
-     <colorrole role="Dark">
-      <brush brushstyle="SolidPattern">
-       <color alpha="255">
-        <red>127</red>
-        <green>127</green>
-        <blue>127</blue>
-       </color>
-      </brush>
-     </colorrole>
-     <colorrole role="Mid">
-      <brush brushstyle="SolidPattern">
-       <color alpha="255">
-        <red>170</red>
-        <green>170</green>
-        <blue>170</blue>
-       </color>
-      </brush>
-     </colorrole>
-     <colorrole role="Text">
-      <brush brushstyle="SolidPattern">
-       <color alpha="255">
-        <red>0</red>
-        <green>0</green>
-        <blue>0</blue>
-       </color>
-      </brush>
-     </colorrole>
-     <colorrole role="BrightText">
-      <brush brushstyle="SolidPattern">
-       <color alpha="255">
-        <red>255</red>
-        <green>255</green>
-        <blue>255</blue>
-       </color>
-      </brush>
-     </colorrole>
-     <colorrole role="ButtonText">
-      <brush brushstyle="SolidPattern">
-       <color alpha="255">
-        <red>0</red>
-        <green>0</green>
-        <blue>0</blue>
-       </color>
-      </brush>
-     </colorrole>
-     <colorrole role="Base">
-      <brush brushstyle="SolidPattern">
-       <color alpha="255">
-        <red>255</red>
-        <green>255</green>
-        <blue>255</blue>
-       </color>
-      </brush>
-     </colorrole>
-     <colorrole role="Window">
-      <brush brushstyle="SolidPattern">
-       <color alpha="255">
-        <red>255</red>
-        <green>255</green>
-        <blue>255</blue>
-       </color>
-      </brush>
-     </colorrole>
-     <colorrole role="Shadow">
-      <brush brushstyle="SolidPattern">
-       <color alpha="255">
-        <red>0</red>
-        <green>0</green>
-        <blue>0</blue>
-       </color>
-      </brush>
-     </colorrole>
-     <colorrole role="AlternateBase">
-      <brush brushstyle="SolidPattern">
-       <color alpha="255">
-        <red>255</red>
-        <green>255</green>
-        <blue>255</blue>
-       </color>
-      </brush>
-     </colorrole>
-     <colorrole role="ToolTipBase">
-      <brush brushstyle="SolidPattern">
-       <color alpha="255">
-        <red>255</red>
-        <green>255</green>
-        <blue>220</blue>
-       </color>
-      </brush>
-     </colorrole>
-     <colorrole role="ToolTipText">
-      <brush brushstyle="SolidPattern">
-       <color alpha="255">
-        <red>0</red>
-        <green>0</green>
-        <blue>0</blue>
-       </color>
-      </brush>
-     </colorrole>
-     <colorrole role="PlaceholderText">
-      <brush brushstyle="SolidPattern">
-       <color alpha="128">
-        <red>0</red>
-        <green>0</green>
-        <blue>0</blue>
-       </color>
-      </brush>
-     </colorrole>
-    </active>
-    <inactive>
-     <colorrole role="WindowText">
-      <brush brushstyle="SolidPattern">
-       <color alpha="255">
-        <red>0</red>
-        <green>0</green>
-        <blue>0</blue>
-       </color>
-      </brush>
-     </colorrole>
-     <colorrole role="Button">
-      <brush brushstyle="SolidPattern">
-       <color alpha="255">
-        <red>255</red>
-        <green>255</green>
-        <blue>255</blue>
-       </color>
-      </brush>
-     </colorrole>
-     <colorrole role="Light">
-      <brush brushstyle="SolidPattern">
-       <color alpha="255">
-        <red>255</red>
-        <green>255</green>
-        <blue>255</blue>
-       </color>
-      </brush>
-     </colorrole>
-     <colorrole role="Midlight">
-      <brush brushstyle="SolidPattern">
-       <color alpha="255">
-        <red>255</red>
-        <green>255</green>
-        <blue>255</blue>
-       </color>
-      </brush>
-     </colorrole>
-     <colorrole role="Dark">
-      <brush brushstyle="SolidPattern">
-       <color alpha="255">
-        <red>127</red>
-        <green>127</green>
-        <blue>127</blue>
-       </color>
-      </brush>
-     </colorrole>
-     <colorrole role="Mid">
-      <brush brushstyle="SolidPattern">
-       <color alpha="255">
-        <red>170</red>
-        <green>170</green>
-        <blue>170</blue>
-       </color>
-      </brush>
-     </colorrole>
-     <colorrole role="Text">
-      <brush brushstyle="SolidPattern">
-       <color alpha="255">
-        <red>0</red>
-        <green>0</green>
-        <blue>0</blue>
-       </color>
-      </brush>
-     </colorrole>
-     <colorrole role="BrightText">
-      <brush brushstyle="SolidPattern">
-       <color alpha="255">
-        <red>255</red>
-        <green>255</green>
-        <blue>255</blue>
-       </color>
-      </brush>
-     </colorrole>
-     <colorrole role="ButtonText">
-      <brush brushstyle="SolidPattern">
-       <color alpha="255">
-        <red>0</red>
-        <green>0</green>
-        <blue>0</blue>
-       </color>
-      </brush>
-     </colorrole>
-     <colorrole role="Base">
-      <brush brushstyle="SolidPattern">
-       <color alpha="255">
-        <red>255</red>
-        <green>255</green>
-        <blue>255</blue>
-       </color>
-      </brush>
-     </colorrole>
-     <colorrole role="Window">
-      <brush brushstyle="SolidPattern">
-       <color alpha="255">
-        <red>255</red>
-        <green>255</green>
-        <blue>255</blue>
-       </color>
-      </brush>
-     </colorrole>
-     <colorrole role="Shadow">
-      <brush brushstyle="SolidPattern">
-       <color alpha="255">
-        <red>0</red>
-        <green>0</green>
-        <blue>0</blue>
-       </color>
-      </brush>
-     </colorrole>
-     <colorrole role="AlternateBase">
-      <brush brushstyle="SolidPattern">
-       <color alpha="255">
-        <red>255</red>
-        <green>255</green>
-        <blue>255</blue>
-       </color>
-      </brush>
-     </colorrole>
-     <colorrole role="ToolTipBase">
-      <brush brushstyle="SolidPattern">
-       <color alpha="255">
-        <red>255</red>
-        <green>255</green>
-        <blue>220</blue>
-       </color>
-      </brush>
-     </colorrole>
-     <colorrole role="ToolTipText">
-      <brush brushstyle="SolidPattern">
-       <color alpha="255">
-        <red>0</red>
-        <green>0</green>
-        <blue>0</blue>
-       </color>
-      </brush>
-     </colorrole>
-     <colorrole role="PlaceholderText">
-      <brush brushstyle="SolidPattern">
-       <color alpha="128">
-        <red>0</red>
-        <green>0</green>
-        <blue>0</blue>
-       </color>
-      </brush>
-     </colorrole>
-    </inactive>
-    <disabled>
-     <colorrole role="WindowText">
-      <brush brushstyle="SolidPattern">
-       <color alpha="255">
-        <red>127</red>
-        <green>127</green>
-        <blue>127</blue>
-       </color>
-      </brush>
-     </colorrole>
-     <colorrole role="Button">
-      <brush brushstyle="SolidPattern">
-       <color alpha="255">
-        <red>255</red>
-        <green>255</green>
-        <blue>255</blue>
-       </color>
-      </brush>
-     </colorrole>
-     <colorrole role="Light">
-      <brush brushstyle="SolidPattern">
-       <color alpha="255">
-        <red>255</red>
-        <green>255</green>
-        <blue>255</blue>
-       </color>
-      </brush>
-     </colorrole>
-     <colorrole role="Midlight">
-      <brush brushstyle="SolidPattern">
-       <color alpha="255">
-        <red>255</red>
-        <green>255</green>
-        <blue>255</blue>
-       </color>
-      </brush>
-     </colorrole>
-     <colorrole role="Dark">
-      <brush brushstyle="SolidPattern">
-       <color alpha="255">
-        <red>127</red>
-        <green>127</green>
-        <blue>127</blue>
-       </color>
-      </brush>
-     </colorrole>
-     <colorrole role="Mid">
-      <brush brushstyle="SolidPattern">
-       <color alpha="255">
-        <red>170</red>
-        <green>170</green>
-        <blue>170</blue>
-       </color>
-      </brush>
-     </colorrole>
-     <colorrole role="Text">
-      <brush brushstyle="SolidPattern">
-       <color alpha="255">
-        <red>127</red>
-        <green>127</green>
-        <blue>127</blue>
-       </color>
-      </brush>
-     </colorrole>
-     <colorrole role="BrightText">
-      <brush brushstyle="SolidPattern">
-       <color alpha="255">
-        <red>255</red>
-        <green>255</green>
-        <blue>255</blue>
-       </color>
-      </brush>
-     </colorrole>
-     <colorrole role="ButtonText">
-      <brush brushstyle="SolidPattern">
-       <color alpha="255">
-        <red>127</red>
-        <green>127</green>
-        <blue>127</blue>
-       </color>
-      </brush>
-     </colorrole>
-     <colorrole role="Base">
-      <brush brushstyle="SolidPattern">
-       <color alpha="255">
-        <red>255</red>
-        <green>255</green>
-        <blue>255</blue>
-       </color>
-      </brush>
-     </colorrole>
-     <colorrole role="Window">
-      <brush brushstyle="SolidPattern">
-       <color alpha="255">
-        <red>255</red>
-        <green>255</green>
-        <blue>255</blue>
-       </color>
-      </brush>
-     </colorrole>
-     <colorrole role="Shadow">
-      <brush brushstyle="SolidPattern">
-       <color alpha="255">
-        <red>0</red>
-        <green>0</green>
-        <blue>0</blue>
-       </color>
-      </brush>
-     </colorrole>
-     <colorrole role="AlternateBase">
-      <brush brushstyle="SolidPattern">
-       <color alpha="255">
-        <red>255</red>
-        <green>255</green>
-        <blue>255</blue>
-       </color>
-      </brush>
-     </colorrole>
-     <colorrole role="ToolTipBase">
-      <brush brushstyle="SolidPattern">
-       <color alpha="255">
-        <red>255</red>
-        <green>255</green>
-        <blue>220</blue>
-       </color>
-      </brush>
-     </colorrole>
-     <colorrole role="ToolTipText">
-      <brush brushstyle="SolidPattern">
-       <color alpha="255">
-        <red>0</red>
-        <green>0</green>
-        <blue>0</blue>
-       </color>
-      </brush>
-     </colorrole>
-     <colorrole role="PlaceholderText">
-      <brush brushstyle="SolidPattern">
-       <color alpha="128">
-        <red>0</red>
-        <green>0</green>
-        <blue>0</blue>
-       </color>
-      </brush>
-     </colorrole>
-    </disabled>
-   </palette>
-  </property>
-  <property name="windowTitle">
-   <string>3D Geometric Shapes Calculator</string>
-  </property>
-  <property name="windowOpacity">
-   <double>1.000000000000000</double>
-  </property>
-  <widget class="QWidget" name="MenuClass" native="true">
-   <property name="geometry">
-    <rect>
-     <x>40</x>
-     <y>0</y>
-     <width>621</width>
-     <height>471</height>
-    </rect>
-   </property>
-   <property name="autoFillBackground">
-    <bool>true</bool>
-   </property>
-   <widget class="QLabel" name="label_9">
-    <property name="geometry">
-     <rect>
-      <x>500</x>
-      <y>130</y>
-      <width>91</width>
-      <height>91</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap>cone.png</pixmap>
-    </property>
-    <property name="scaledContents">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_10">
-    <property name="geometry">
-     <rect>
-      <x>500</x>
-      <y>300</y>
-      <width>91</width>
-      <height>91</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap>tetrahedron.png</pixmap>
-    </property>
-    <property name="scaledContents">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="cylinder">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>410</y>
-      <width>93</width>
-      <height>28</height>
-     </rect>
-    </property>
-    <property name="cursor">
-     <cursorShape>PointingHandCursor</cursorShape>
-    </property>
-    <property name="text">
-     <string>Cylinder</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="tetrahedron">
-    <property name="geometry">
-     <rect>
-      <x>500</x>
-      <y>410</y>
-      <width>93</width>
-      <height>28</height>
-     </rect>
-    </property>
-    <property name="cursor">
-     <cursorShape>PointingHandCursor</cursorShape>
-    </property>
-    <property name="text">
-     <string>Tetrahedron</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="cube">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>240</y>
-      <width>93</width>
-      <height>28</height>
-     </rect>
-    </property>
-    <property name="cursor">
-     <cursorShape>PointingHandCursor</cursorShape>
-    </property>
-    <property name="text">
-     <string>Cube</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_11">
-    <property name="geometry">
-     <rect>
-      <x>260</x>
-      <y>130</y>
-      <width>91</width>
-      <height>91</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap>sphere.png</pixmap>
-    </property>
-    <property name="scaledContents">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="Line" name="line_2">
-    <property name="geometry">
-     <rect>
-      <x>0</x>
-      <y>100</y>
-      <width>621</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_12">
-    <property name="geometry">
-     <rect>
-      <x>120</x>
-      <y>0</y>
-      <width>381</width>
-      <height>60</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>14</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="text">
-     <string>3D Geometric Shapes Calculator</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_13">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>130</y>
-      <width>91</width>
-      <height>91</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap>cube.png</pixmap>
-    </property>
-    <property name="scaledContents">
-     <bool>true</bool>
-    </property>
-    <property name="indent">
-     <number>1</number>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="ellipsoid">
-    <property name="geometry">
-     <rect>
-      <x>260</x>
-      <y>410</y>
-      <width>93</width>
-      <height>28</height>
-     </rect>
-    </property>
-    <property name="cursor">
-     <cursorShape>PointingHandCursor</cursorShape>
-    </property>
-    <property name="text">
-     <string>Ellipsoid</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="cone">
-    <property name="geometry">
-     <rect>
-      <x>500</x>
-      <y>240</y>
-      <width>93</width>
-      <height>28</height>
-     </rect>
-    </property>
-    <property name="cursor">
-     <cursorShape>PointingHandCursor</cursorShape>
-    </property>
-    <property name="text">
-     <string>Cone</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_14">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>300</y>
-      <width>91</width>
-      <height>91</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap>cylinder.png</pixmap>
-    </property>
-    <property name="scaledContents">
-     <bool>true</bool>
-    </property>
-    <property name="indent">
-     <number>1</number>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_15">
-    <property name="geometry">
-     <rect>
-      <x>230</x>
-      <y>60</y>
-      <width>171</width>
-      <height>30</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>12</pointsize>
-      <italic>true</italic>
-     </font>
-    </property>
-    <property name="text">
-     <string>by: Vincent Zhang</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_16">
-    <property name="geometry">
-     <rect>
-      <x>240</x>
-      <y>300</y>
-      <width>131</width>
-      <height>91</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap>ellipsoid.png</pixmap>
-    </property>
-    <property name="scaledContents">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="sphere">
-    <property name="geometry">
-     <rect>
-      <x>260</x>
-      <y>240</y>
-      <width>93</width>
-      <height>28</height>
-     </rect>
-    </property>
-    <property name="cursor">
-     <cursorShape>PointingHandCursor</cursorShape>
-    </property>
-    <property name="text">
-     <string>Sphere</string>
-    </property>
-   </widget>
-  </widget>
-  <widget class="QWidget" name="CubeClass" native="true">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>701</width>
-     <height>501</height>
-    </rect>
-   </property>
-   <property name="autoFillBackground">
-    <bool>true</bool>
-   </property>
-   <widget class="QLabel" name="label">
-    <property name="geometry">
-     <rect>
-      <x>470</x>
-      <y>120</y>
-      <width>171</width>
-      <height>171</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap>cube.png</pixmap>
-    </property>
-    <property name="scaledContents">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_2">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>80</y>
-      <width>131</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>15</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>a (edge) =</string>
-    </property>
-   </widget>
-   <widget class="Line" name="line">
-    <property name="geometry">
-     <rect>
-      <x>410</x>
-      <y>10</y>
-      <width>20</width>
-      <height>471</height>
-     </rect>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Vertical</enum>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_3">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>330</y>
-      <width>81</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>15</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>SA =</string>
-    </property>
-   </widget>
-   <widget class="QLCDNumber" name="cuSurfaceArea">
-    <property name="geometry">
-     <rect>
-      <x>90</x>
-      <y>330</y>
-      <width>311</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>MS UI Gothic</family>
-      <pointsize>10</pointsize>
-     </font>
-    </property>
-    <property name="smallDecimalPoint">
-     <bool>true</bool>
-    </property>
-    <property name="digitCount">
-     <number>15</number>
-    </property>
-    <property name="mode">
-     <enum>QLCDNumber::Dec</enum>
-    </property>
-    <property name="intValue" stdset="0">
-     <number>0</number>
-    </property>
-   </widget>
-   <widget class="QDoubleSpinBox" name="cuLength">
-    <property name="geometry">
-     <rect>
-      <x>170</x>
-      <y>80</y>
-      <width>221</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>15</pointsize>
-     </font>
-    </property>
-    <property name="maximum">
-     <double>99999999999999.000000000000000</double>
-    </property>
-    <property name="singleStep">
-     <double>0.010000000000000</double>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_4">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>410</y>
-      <width>51</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>15</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>V =</string>
-    </property>
-   </widget>
-   <widget class="QLCDNumber" name="cuVolume">
-    <property name="enabled">
-     <bool>true</bool>
-    </property>
-    <property name="geometry">
-     <rect>
-      <x>90</x>
-      <y>410</y>
-      <width>311</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>10</pointsize>
-     </font>
-    </property>
-    <property name="autoFillBackground">
-     <bool>false</bool>
-    </property>
-    <property name="smallDecimalPoint">
-     <bool>true</bool>
-    </property>
-    <property name="digitCount">
-     <number>15</number>
-    </property>
-    <property name="mode">
-     <enum>QLCDNumber::Dec</enum>
-    </property>
-    <property name="segmentStyle">
-     <enum>QLCDNumber::Filled</enum>
-    </property>
-    <property name="value" stdset="0">
-     <double>0.000000000000000</double>
-    </property>
-    <property name="intValue" stdset="0">
-     <number>0</number>
-    </property>
-   </widget>
-   <widget class="Line" name="line_3">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>280</y>
-      <width>411</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
-   <widget class="QCommandLinkButton" name="cuBack">
-    <property name="geometry">
-     <rect>
-      <x>450</x>
-      <y>360</y>
-      <width>222</width>
-      <height>48</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Segoe UI</family>
-      <pointsize>14</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>Back to Menu</string>
-    </property>
-   </widget>
-  </widget>
-  <widget class="QWidget" name="SphereClass" native="true">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>701</width>
-     <height>501</height>
-    </rect>
-   </property>
-   <property name="autoFillBackground">
-    <bool>true</bool>
-   </property>
-   <widget class="QLabel" name="label_5">
-    <property name="geometry">
-     <rect>
-      <x>470</x>
-      <y>120</y>
-      <width>171</width>
-      <height>171</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>MS Shell Dlg 2</family>
-     </font>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap>sphere.png</pixmap>
-    </property>
-    <property name="scaledContents">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_6">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>80</y>
-      <width>131</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>15</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>r (radius) =</string>
-    </property>
-   </widget>
-   <widget class="Line" name="line_4">
-    <property name="geometry">
-     <rect>
-      <x>410</x>
-      <y>10</y>
-      <width>20</width>
-      <height>471</height>
-     </rect>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Vertical</enum>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_7">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>330</y>
-      <width>81</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>15</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>SA =</string>
-    </property>
-   </widget>
-   <widget class="QLCDNumber" name="spSurfaceArea">
-    <property name="geometry">
-     <rect>
-      <x>90</x>
-      <y>330</y>
-      <width>311</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>MS UI Gothic</family>
-      <pointsize>10</pointsize>
-     </font>
-    </property>
-    <property name="smallDecimalPoint">
-     <bool>true</bool>
-    </property>
-    <property name="digitCount">
-     <number>15</number>
-    </property>
-    <property name="mode">
-     <enum>QLCDNumber::Dec</enum>
-    </property>
-    <property name="segmentStyle">
-     <enum>QLCDNumber::Filled</enum>
-    </property>
-    <property name="intValue" stdset="0">
-     <number>0</number>
-    </property>
-   </widget>
-   <widget class="QDoubleSpinBox" name="spRadius">
-    <property name="geometry">
-     <rect>
-      <x>170</x>
-      <y>80</y>
-      <width>221</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>15</pointsize>
-     </font>
-    </property>
-    <property name="maximum">
-     <double>99999999999999.000000000000000</double>
-    </property>
-    <property name="singleStep">
-     <double>0.010000000000000</double>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_8">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>410</y>
-      <width>51</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>15</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>V =</string>
-    </property>
-   </widget>
-   <widget class="QLCDNumber" name="spVolume">
-    <property name="geometry">
-     <rect>
-      <x>90</x>
-      <y>410</y>
-      <width>311</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>10</pointsize>
-     </font>
-    </property>
-    <property name="smallDecimalPoint">
-     <bool>true</bool>
-    </property>
-    <property name="digitCount">
-     <number>15</number>
-    </property>
-    <property name="mode">
-     <enum>QLCDNumber::Dec</enum>
-    </property>
-    <property name="value" stdset="0">
-     <double>0.000000000000000</double>
-    </property>
-    <property name="intValue" stdset="0">
-     <number>0</number>
-    </property>
-   </widget>
-   <widget class="Line" name="line_5">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>280</y>
-      <width>411</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
-   <widget class="QCommandLinkButton" name="spBack">
-    <property name="geometry">
-     <rect>
-      <x>450</x>
-      <y>360</y>
-      <width>222</width>
-      <height>48</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Segoe UI</family>
-      <pointsize>14</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>Back to Menu</string>
-    </property>
-   </widget>
-  </widget>
-  <widget class="QWidget" name="CylinderClass" native="true">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>701</width>
-     <height>501</height>
-    </rect>
-   </property>
-   <property name="autoFillBackground">
-    <bool>true</bool>
-   </property>
-   <widget class="QLabel" name="label_17">
-    <property name="geometry">
-     <rect>
-      <x>470</x>
-      <y>90</y>
-      <width>171</width>
-      <height>201</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>MS Shell Dlg 2</family>
-     </font>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap>cylinder.png</pixmap>
-    </property>
-    <property name="scaledContents">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_18">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>80</y>
-      <width>131</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>15</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>r (radius) =</string>
-    </property>
-   </widget>
-   <widget class="Line" name="line_6">
-    <property name="geometry">
-     <rect>
-      <x>410</x>
-      <y>10</y>
-      <width>20</width>
-      <height>471</height>
-     </rect>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Vertical</enum>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_19">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>330</y>
-      <width>81</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>15</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>SA =</string>
-    </property>
-   </widget>
-   <widget class="QLCDNumber" name="cySurfaceArea">
-    <property name="geometry">
-     <rect>
-      <x>90</x>
-      <y>330</y>
-      <width>311</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>MS UI Gothic</family>
-      <pointsize>10</pointsize>
-     </font>
-    </property>
-    <property name="smallDecimalPoint">
-     <bool>true</bool>
-    </property>
-    <property name="digitCount">
-     <number>15</number>
-    </property>
-    <property name="mode">
-     <enum>QLCDNumber::Dec</enum>
-    </property>
-    <property name="segmentStyle">
-     <enum>QLCDNumber::Filled</enum>
-    </property>
-    <property name="intValue" stdset="0">
-     <number>0</number>
-    </property>
-   </widget>
-   <widget class="QDoubleSpinBox" name="cyRadius">
-    <property name="geometry">
-     <rect>
-      <x>170</x>
-      <y>80</y>
-      <width>221</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>15</pointsize>
-     </font>
-    </property>
-    <property name="maximum">
-     <double>99999999999999.000000000000000</double>
-    </property>
-    <property name="singleStep">
-     <double>0.010000000000000</double>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_20">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>410</y>
-      <width>51</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>15</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>V =</string>
-    </property>
-   </widget>
-   <widget class="QLCDNumber" name="cyVolume">
-    <property name="geometry">
-     <rect>
-      <x>90</x>
-      <y>410</y>
-      <width>311</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>10</pointsize>
-     </font>
-    </property>
-    <property name="smallDecimalPoint">
-     <bool>true</bool>
-    </property>
-    <property name="digitCount">
-     <number>15</number>
-    </property>
-    <property name="mode">
-     <enum>QLCDNumber::Dec</enum>
-    </property>
-    <property name="value" stdset="0">
-     <double>0.000000000000000</double>
-    </property>
-    <property name="intValue" stdset="0">
-     <number>0</number>
-    </property>
-   </widget>
-   <widget class="Line" name="line_7">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>280</y>
-      <width>411</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
-   <widget class="QCommandLinkButton" name="cyBack">
-    <property name="geometry">
-     <rect>
-      <x>450</x>
-      <y>360</y>
-      <width>222</width>
-      <height>48</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Segoe UI</family>
-      <pointsize>14</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>Back to Menu</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_21">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>140</y>
-      <width>131</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>15</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>h (height) =</string>
-    </property>
-   </widget>
-   <widget class="QDoubleSpinBox" name="cyHeight">
-    <property name="geometry">
-     <rect>
-      <x>170</x>
-      <y>140</y>
-      <width>221</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>15</pointsize>
-     </font>
-    </property>
-    <property name="maximum">
-     <double>99999999999999.000000000000000</double>
-    </property>
-    <property name="singleStep">
-     <double>0.010000000000000</double>
-    </property>
-   </widget>
-  </widget>
-  <widget class="QWidget" name="ConeClass" native="true">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>701</width>
-     <height>501</height>
-    </rect>
-   </property>
-   <property name="autoFillBackground">
-    <bool>true</bool>
-   </property>
-   <widget class="QLabel" name="label_22">
-    <property name="geometry">
-     <rect>
-      <x>470</x>
-      <y>90</y>
-      <width>171</width>
-      <height>201</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>MS Shell Dlg 2</family>
-     </font>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap>cone.png</pixmap>
-    </property>
-    <property name="scaledContents">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_23">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>80</y>
-      <width>131</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>15</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>r (radius) =</string>
-    </property>
-   </widget>
-   <widget class="Line" name="line_8">
-    <property name="geometry">
-     <rect>
-      <x>410</x>
-      <y>10</y>
-      <width>20</width>
-      <height>471</height>
-     </rect>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Vertical</enum>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_24">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>330</y>
-      <width>81</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>15</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>SA =</string>
-    </property>
-   </widget>
-   <widget class="QLCDNumber" name="coSurfaceArea">
-    <property name="geometry">
-     <rect>
-      <x>90</x>
-      <y>330</y>
-      <width>311</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>MS UI Gothic</family>
-      <pointsize>10</pointsize>
-     </font>
-    </property>
-    <property name="smallDecimalPoint">
-     <bool>true</bool>
-    </property>
-    <property name="digitCount">
-     <number>15</number>
-    </property>
-    <property name="mode">
-     <enum>QLCDNumber::Dec</enum>
-    </property>
-    <property name="segmentStyle">
-     <enum>QLCDNumber::Filled</enum>
-    </property>
-    <property name="intValue" stdset="0">
-     <number>0</number>
-    </property>
-   </widget>
-   <widget class="QDoubleSpinBox" name="coRadius">
-    <property name="geometry">
-     <rect>
-      <x>170</x>
-      <y>80</y>
-      <width>221</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>15</pointsize>
-     </font>
-    </property>
-    <property name="maximum">
-     <double>99999999999999.000000000000000</double>
-    </property>
-    <property name="singleStep">
-     <double>0.010000000000000</double>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_25">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>410</y>
-      <width>51</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>15</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>V =</string>
-    </property>
-   </widget>
-   <widget class="QLCDNumber" name="coVolume">
-    <property name="geometry">
-     <rect>
-      <x>90</x>
-      <y>410</y>
-      <width>311</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>10</pointsize>
-     </font>
-    </property>
-    <property name="smallDecimalPoint">
-     <bool>true</bool>
-    </property>
-    <property name="digitCount">
-     <number>15</number>
-    </property>
-    <property name="mode">
-     <enum>QLCDNumber::Dec</enum>
-    </property>
-    <property name="value" stdset="0">
-     <double>0.000000000000000</double>
-    </property>
-    <property name="intValue" stdset="0">
-     <number>0</number>
-    </property>
-   </widget>
-   <widget class="Line" name="line_9">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>280</y>
-      <width>411</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
-   <widget class="QCommandLinkButton" name="coBack">
-    <property name="geometry">
-     <rect>
-      <x>450</x>
-      <y>360</y>
-      <width>222</width>
-      <height>48</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Segoe UI</family>
-      <pointsize>14</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>Back to Menu</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_26">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>140</y>
-      <width>131</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>15</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>h (height) =</string>
-    </property>
-   </widget>
-   <widget class="QDoubleSpinBox" name="coHeight">
-    <property name="geometry">
-     <rect>
-      <x>170</x>
-      <y>140</y>
-      <width>221</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>15</pointsize>
-     </font>
-    </property>
-    <property name="maximum">
-     <double>99999999999999.000000000000000</double>
-    </property>
-    <property name="singleStep">
-     <double>0.010000000000000</double>
-    </property>
-   </widget>
-  </widget>
-  <widget class="QWidget" name="TetrahedronClass" native="true">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>701</width>
-     <height>501</height>
-    </rect>
-   </property>
-   <property name="autoFillBackground">
-    <bool>true</bool>
-   </property>
-   <widget class="QLabel" name="label_27">
-    <property name="geometry">
-     <rect>
-      <x>470</x>
-      <y>120</y>
-      <width>171</width>
-      <height>171</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>MS Shell Dlg 2</family>
-     </font>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap>tetrahedron.png</pixmap>
-    </property>
-    <property name="scaledContents">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_28">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>80</y>
-      <width>131</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>15</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>a (edge) = </string>
-    </property>
-   </widget>
-   <widget class="Line" name="line_10">
-    <property name="geometry">
-     <rect>
-      <x>410</x>
-      <y>10</y>
-      <width>20</width>
-      <height>471</height>
-     </rect>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Vertical</enum>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_29">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>330</y>
-      <width>81</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>15</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>SA =</string>
-    </property>
-   </widget>
-   <widget class="QLCDNumber" name="teArea">
-    <property name="geometry">
-     <rect>
-      <x>90</x>
-      <y>330</y>
-      <width>311</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>MS UI Gothic</family>
-      <pointsize>10</pointsize>
-     </font>
-    </property>
-    <property name="smallDecimalPoint">
-     <bool>true</bool>
-    </property>
-    <property name="digitCount">
-     <number>15</number>
-    </property>
-    <property name="mode">
-     <enum>QLCDNumber::Dec</enum>
-    </property>
-    <property name="segmentStyle">
-     <enum>QLCDNumber::Filled</enum>
-    </property>
-    <property name="intValue" stdset="0">
-     <number>0</number>
-    </property>
-   </widget>
-   <widget class="QDoubleSpinBox" name="teEdge">
-    <property name="geometry">
-     <rect>
-      <x>170</x>
-      <y>80</y>
-      <width>221</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>15</pointsize>
-     </font>
-    </property>
-    <property name="maximum">
-     <double>99999999999999.000000000000000</double>
-    </property>
-    <property name="singleStep">
-     <double>0.010000000000000</double>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_30">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>410</y>
-      <width>51</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>15</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>V =</string>
-    </property>
-   </widget>
-   <widget class="QLCDNumber" name="teVolume">
-    <property name="geometry">
-     <rect>
-      <x>90</x>
-      <y>410</y>
-      <width>311</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>10</pointsize>
-     </font>
-    </property>
-    <property name="smallDecimalPoint">
-     <bool>true</bool>
-    </property>
-    <property name="digitCount">
-     <number>15</number>
-    </property>
-    <property name="mode">
-     <enum>QLCDNumber::Dec</enum>
-    </property>
-    <property name="value" stdset="0">
-     <double>0.000000000000000</double>
-    </property>
-    <property name="intValue" stdset="0">
-     <number>0</number>
-    </property>
-   </widget>
-   <widget class="Line" name="line_11">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>280</y>
-      <width>411</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
-   <widget class="QCommandLinkButton" name="teBack">
-    <property name="geometry">
-     <rect>
-      <x>450</x>
-      <y>360</y>
-      <width>222</width>
-      <height>48</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Segoe UI</family>
-      <pointsize>14</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>Back to Menu</string>
-    </property>
-   </widget>
-  </widget>
-  <widget class="QWidget" name="EllipsoidClass" native="true">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>701</width>
-     <height>501</height>
-    </rect>
-   </property>
-   <property name="autoFillBackground">
-    <bool>true</bool>
-   </property>
-   <widget class="QLabel" name="label_31">
-    <property name="geometry">
-     <rect>
-      <x>440</x>
-      <y>140</y>
-      <width>231</width>
-      <height>151</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>MS Shell Dlg 2</family>
-     </font>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap>ellipsoid.png</pixmap>
-    </property>
-    <property name="scaledContents">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_32">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>80</y>
-      <width>131</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>15</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>a (axis) =</string>
-    </property>
-   </widget>
-   <widget class="Line" name="line_12">
-    <property name="geometry">
-     <rect>
-      <x>410</x>
-      <y>10</y>
-      <width>20</width>
-      <height>471</height>
-     </rect>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Vertical</enum>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_33">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>330</y>
-      <width>81</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>15</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>SA =</string>
-    </property>
-   </widget>
-   <widget class="QLCDNumber" name="elArea">
-    <property name="geometry">
-     <rect>
-      <x>90</x>
-      <y>330</y>
-      <width>311</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>MS UI Gothic</family>
-      <pointsize>10</pointsize>
-     </font>
-    </property>
-    <property name="smallDecimalPoint">
-     <bool>true</bool>
-    </property>
-    <property name="digitCount">
-     <number>15</number>
-    </property>
-    <property name="mode">
-     <enum>QLCDNumber::Dec</enum>
-    </property>
-    <property name="segmentStyle">
-     <enum>QLCDNumber::Filled</enum>
-    </property>
-    <property name="intValue" stdset="0">
-     <number>0</number>
-    </property>
-   </widget>
-   <widget class="QDoubleSpinBox" name="elMajor">
-    <property name="geometry">
-     <rect>
-      <x>170</x>
-      <y>80</y>
-      <width>221</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>15</pointsize>
-     </font>
-    </property>
-    <property name="maximum">
-     <double>99999999999999.000000000000000</double>
-    </property>
-    <property name="singleStep">
-     <double>0.010000000000000</double>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_34">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>410</y>
-      <width>51</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>15</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>V =</string>
-    </property>
-   </widget>
-   <widget class="QLCDNumber" name="elVolume">
-    <property name="geometry">
-     <rect>
-      <x>90</x>
-      <y>410</y>
-      <width>311</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>10</pointsize>
-     </font>
-    </property>
-    <property name="smallDecimalPoint">
-     <bool>true</bool>
-    </property>
-    <property name="digitCount">
-     <number>15</number>
-    </property>
-    <property name="mode">
-     <enum>QLCDNumber::Dec</enum>
-    </property>
-    <property name="value" stdset="0">
-     <double>0.000000000000000</double>
-    </property>
-    <property name="intValue" stdset="0">
-     <number>0</number>
-    </property>
-   </widget>
-   <widget class="Line" name="line_13">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>280</y>
-      <width>411</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
-   <widget class="QCommandLinkButton" name="elBack">
-    <property name="geometry">
-     <rect>
-      <x>450</x>
-      <y>360</y>
-      <width>222</width>
-      <height>48</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Segoe UI</family>
-      <pointsize>14</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>Back to Menu</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_35">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>140</y>
-      <width>131</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>15</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>b (axis) =</string>
-    </property>
-   </widget>
-   <widget class="QDoubleSpinBox" name="elMinor">
-    <property name="geometry">
-     <rect>
-      <x>170</x>
-      <y>140</y>
-      <width>221</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>15</pointsize>
-     </font>
-    </property>
-    <property name="maximum">
-     <double>99999999999999.000000000000000</double>
-    </property>
-    <property name="singleStep">
-     <double>0.010000000000000</double>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_36">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>200</y>
-      <width>131</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>15</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>c (axis) =</string>
-    </property>
-   </widget>
-   <widget class="QDoubleSpinBox" name="elAxis">
-    <property name="geometry">
-     <rect>
-      <x>170</x>
-      <y>200</y>
-      <width>221</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>15</pointsize>
-     </font>
-    </property>
-    <property name="maximum">
-     <double>99999999999999.000000000000000</double>
-    </property>
-    <property name="singleStep">
-     <double>0.010000000000000</double>
-    </property>
-   </widget>
-  </widget>
- </widget>
- <layoutdefault spacing="6" margin="11"/>
- <resources>
-  <include location="calcwidget.qrc"/>
- </resources>
- <connections/>
+    <class>CalcWidgetClass</class>
+    <widget class="QWidget" name="CalcWidgetClass">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>700</width>
+                <height>500</height>
+            </rect>
+        </property>
+        <property name="maximumSize">
+            <size>
+                <width>700</width>
+                <height>500</height>
+            </size>
+        </property>
+        <property name="palette">
+            <palette>
+                <active>
+                    <colorrole role="WindowText">
+                        <brush brushstyle="SolidPattern">
+                            <color alpha="255">
+                                <red>0</red>
+                                <green>0</green>
+                                <blue>0</blue>
+                            </color>
+                        </brush>
+                    </colorrole>
+                    <colorrole role="Button">
+                        <brush brushstyle="SolidPattern">
+                            <color alpha="255">
+                                <red>255</red>
+                                <green>255</green>
+                                <blue>255</blue>
+                            </color>
+                        </brush>
+                    </colorrole>
+                    <colorrole role="Light">
+                        <brush brushstyle="SolidPattern">
+                            <color alpha="255">
+                                <red>255</red>
+                                <green>255</green>
+                                <blue>255</blue>
+                            </color>
+                        </brush>
+                    </colorrole>
+                    <colorrole role="Midlight">
+                        <brush brushstyle="SolidPattern">
+                            <color alpha="255">
+                                <red>255</red>
+                                <green>255</green>
+                                <blue>255</blue>
+                            </color>
+                        </brush>
+                    </colorrole>
+                    <colorrole role="Dark">
+                        <brush brushstyle="SolidPattern">
+                            <color alpha="255">
+                                <red>127</red>
+                                <green>127</green>
+                                <blue>127</blue>
+                            </color>
+                        </brush>
+                    </colorrole>
+                    <colorrole role="Mid">
+                        <brush brushstyle="SolidPattern">
+                            <color alpha="255">
+                                <red>170</red>
+                                <green>170</green>
+                                <blue>170</blue>
+                            </color>
+                        </brush>
+                    </colorrole>
+                    <colorrole role="Text">
+                        <brush brushstyle="SolidPattern">
+                            <color alpha="255">
+                                <red>0</red>
+                                <green>0</green>
+                                <blue>0</blue>
+                            </color>
+                        </brush>
+                    </colorrole>
+                    <colorrole role="BrightText">
+                        <brush brushstyle="SolidPattern">
+                            <color alpha="255">
+                                <red>255</red>
+                                <green>255</green>
+                                <blue>255</blue>
+                            </color>
+                        </brush>
+                    </colorrole>
+                    <colorrole role="ButtonText">
+                        <brush brushstyle="SolidPattern">
+                            <color alpha="255">
+                                <red>0</red>
+                                <green>0</green>
+                                <blue>0</blue>
+                            </color>
+                        </brush>
+                    </colorrole>
+                    <colorrole role="Base">
+                        <brush brushstyle="SolidPattern">
+                            <color alpha="255">
+                                <red>255</red>
+                                <green>255</green>
+                                <blue>255</blue>
+                            </color>
+                        </brush>
+                    </colorrole>
+                    <colorrole role="Window">
+                        <brush brushstyle="SolidPattern">
+                            <color alpha="255">
+                                <red>255</red>
+                                <green>255</green>
+                                <blue>255</blue>
+                            </color>
+                        </brush>
+                    </colorrole>
+                    <colorrole role="Shadow">
+                        <brush brushstyle="SolidPattern">
+                            <color alpha="255">
+                                <red>0</red>
+                                <green>0</green>
+                                <blue>0</blue>
+                            </color>
+                        </brush>
+                    </colorrole>
+                    <colorrole role="AlternateBase">
+                        <brush brushstyle="SolidPattern">
+                            <color alpha="255">
+                                <red>255</red>
+                                <green>255</green>
+                                <blue>255</blue>
+                            </color>
+                        </brush>
+                    </colorrole>
+                    <colorrole role="ToolTipBase">
+                        <brush brushstyle="SolidPattern">
+                            <color alpha="255">
+                                <red>255</red>
+                                <green>255</green>
+                                <blue>220</blue>
+                            </color>
+                        </brush>
+                    </colorrole>
+                    <colorrole role="ToolTipText">
+                        <brush brushstyle="SolidPattern">
+                            <color alpha="255">
+                                <red>0</red>
+                                <green>0</green>
+                                <blue>0</blue>
+                            </color>
+                        </brush>
+                    </colorrole>
+                    <colorrole role="PlaceholderText">
+                        <brush brushstyle="SolidPattern">
+                            <color alpha="128">
+                                <red>0</red>
+                                <green>0</green>
+                                <blue>0</blue>
+                            </color>
+                        </brush>
+                    </colorrole>
+                </active>
+                <inactive>
+                    <colorrole role="WindowText">
+                        <brush brushstyle="SolidPattern">
+                            <color alpha="255">
+                                <red>0</red>
+                                <green>0</green>
+                                <blue>0</blue>
+                            </color>
+                        </brush>
+                    </colorrole>
+                    <colorrole role="Button">
+                        <brush brushstyle="SolidPattern">
+                            <color alpha="255">
+                                <red>255</red>
+                                <green>255</green>
+                                <blue>255</blue>
+                            </color>
+                        </brush>
+                    </colorrole>
+                    <colorrole role="Light">
+                        <brush brushstyle="SolidPattern">
+                            <color alpha="255">
+                                <red>255</red>
+                                <green>255</green>
+                                <blue>255</blue>
+                            </color>
+                        </brush>
+                    </colorrole>
+                    <colorrole role="Midlight">
+                        <brush brushstyle="SolidPattern">
+                            <color alpha="255">
+                                <red>255</red>
+                                <green>255</green>
+                                <blue>255</blue>
+                            </color>
+                        </brush>
+                    </colorrole>
+                    <colorrole role="Dark">
+                        <brush brushstyle="SolidPattern">
+                            <color alpha="255">
+                                <red>127</red>
+                                <green>127</green>
+                                <blue>127</blue>
+                            </color>
+                        </brush>
+                    </colorrole>
+                    <colorrole role="Mid">
+                        <brush brushstyle="SolidPattern">
+                            <color alpha="255">
+                                <red>170</red>
+                                <green>170</green>
+                                <blue>170</blue>
+                            </color>
+                        </brush>
+                    </colorrole>
+                    <colorrole role="Text">
+                        <brush brushstyle="SolidPattern">
+                            <color alpha="255">
+                                <red>0</red>
+                                <green>0</green>
+                                <blue>0</blue>
+                            </color>
+                        </brush>
+                    </colorrole>
+                    <colorrole role="BrightText">
+                        <brush brushstyle="SolidPattern">
+                            <color alpha="255">
+                                <red>255</red>
+                                <green>255</green>
+                                <blue>255</blue>
+                            </color>
+                        </brush>
+                    </colorrole>
+                    <colorrole role="ButtonText">
+                        <brush brushstyle="SolidPattern">
+                            <color alpha="255">
+                                <red>0</red>
+                                <green>0</green>
+                                <blue>0</blue>
+                            </color>
+                        </brush>
+                    </colorrole>
+                    <colorrole role="Base">
+                        <brush brushstyle="SolidPattern">
+                            <color alpha="255">
+                                <red>255</red>
+                                <green>255</green>
+                                <blue>255</blue>
+                            </color>
+                        </brush>
+                    </colorrole>
+                    <colorrole role="Window">
+                        <brush brushstyle="SolidPattern">
+                            <color alpha="255">
+                                <red>255</red>
+                                <green>255</green>
+                                <blue>255</blue>
+                            </color>
+                        </brush>
+                    </colorrole>
+                    <colorrole role="Shadow">
+                        <brush brushstyle="SolidPattern">
+                            <color alpha="255">
+                                <red>0</red>
+                                <green>0</green>
+                                <blue>0</blue>
+                            </color>
+                        </brush>
+                    </colorrole>
+                    <colorrole role="AlternateBase">
+                        <brush brushstyle="SolidPattern">
+                            <color alpha="255">
+                                <red>255</red>
+                                <green>255</green>
+                                <blue>255</blue>
+                            </color>
+                        </brush>
+                    </colorrole>
+                    <colorrole role="ToolTipBase">
+                        <brush brushstyle="SolidPattern">
+                            <color alpha="255">
+                                <red>255</red>
+                                <green>255</green>
+                                <blue>220</blue>
+                            </color>
+                        </brush>
+                    </colorrole>
+                    <colorrole role="ToolTipText">
+                        <brush brushstyle="SolidPattern">
+                            <color alpha="255">
+                                <red>0</red>
+                                <green>0</green>
+                                <blue>0</blue>
+                            </color>
+                        </brush>
+                    </colorrole>
+                    <colorrole role="PlaceholderText">
+                        <brush brushstyle="SolidPattern">
+                            <color alpha="128">
+                                <red>0</red>
+                                <green>0</green>
+                                <blue>0</blue>
+                            </color>
+                        </brush>
+                    </colorrole>
+                </inactive>
+                <disabled>
+                    <colorrole role="WindowText">
+                        <brush brushstyle="SolidPattern">
+                            <color alpha="255">
+                                <red>127</red>
+                                <green>127</green>
+                                <blue>127</blue>
+                            </color>
+                        </brush>
+                    </colorrole>
+                    <colorrole role="Button">
+                        <brush brushstyle="SolidPattern">
+                            <color alpha="255">
+                                <red>255</red>
+                                <green>255</green>
+                                <blue>255</blue>
+                            </color>
+                        </brush>
+                    </colorrole>
+                    <colorrole role="Light">
+                        <brush brushstyle="SolidPattern">
+                            <color alpha="255">
+                                <red>255</red>
+                                <green>255</green>
+                                <blue>255</blue>
+                            </color>
+                        </brush>
+                    </colorrole>
+                    <colorrole role="Midlight">
+                        <brush brushstyle="SolidPattern">
+                            <color alpha="255">
+                                <red>255</red>
+                                <green>255</green>
+                                <blue>255</blue>
+                            </color>
+                        </brush>
+                    </colorrole>
+                    <colorrole role="Dark">
+                        <brush brushstyle="SolidPattern">
+                            <color alpha="255">
+                                <red>127</red>
+                                <green>127</green>
+                                <blue>127</blue>
+                            </color>
+                        </brush>
+                    </colorrole>
+                    <colorrole role="Mid">
+                        <brush brushstyle="SolidPattern">
+                            <color alpha="255">
+                                <red>170</red>
+                                <green>170</green>
+                                <blue>170</blue>
+                            </color>
+                        </brush>
+                    </colorrole>
+                    <colorrole role="Text">
+                        <brush brushstyle="SolidPattern">
+                            <color alpha="255">
+                                <red>127</red>
+                                <green>127</green>
+                                <blue>127</blue>
+                            </color>
+                        </brush>
+                    </colorrole>
+                    <colorrole role="BrightText">
+                        <brush brushstyle="SolidPattern">
+                            <color alpha="255">
+                                <red>255</red>
+                                <green>255</green>
+                                <blue>255</blue>
+                            </color>
+                        </brush>
+                    </colorrole>
+                    <colorrole role="ButtonText">
+                        <brush brushstyle="SolidPattern">
+                            <color alpha="255">
+                                <red>127</red>
+                                <green>127</green>
+                                <blue>127</blue>
+                            </color>
+                        </brush>
+                    </colorrole>
+                    <colorrole role="Base">
+                        <brush brushstyle="SolidPattern">
+                            <color alpha="255">
+                                <red>255</red>
+                                <green>255</green>
+                                <blue>255</blue>
+                            </color>
+                        </brush>
+                    </colorrole>
+                    <colorrole role="Window">
+                        <brush brushstyle="SolidPattern">
+                            <color alpha="255">
+                                <red>255</red>
+                                <green>255</green>
+                                <blue>255</blue>
+                            </color>
+                        </brush>
+                    </colorrole>
+                    <colorrole role="Shadow">
+                        <brush brushstyle="SolidPattern">
+                            <color alpha="255">
+                                <red>0</red>
+                                <green>0</green>
+                                <blue>0</blue>
+                            </color>
+                        </brush>
+                    </colorrole>
+                    <colorrole role="AlternateBase">
+                        <brush brushstyle="SolidPattern">
+                            <color alpha="255">
+                                <red>255</red>
+                                <green>255</green>
+                                <blue>255</blue>
+                            </color>
+                        </brush>
+                    </colorrole>
+                    <colorrole role="ToolTipBase">
+                        <brush brushstyle="SolidPattern">
+                            <color alpha="255">
+                                <red>255</red>
+                                <green>255</green>
+                                <blue>220</blue>
+                            </color>
+                        </brush>
+                    </colorrole>
+                    <colorrole role="ToolTipText">
+                        <brush brushstyle="SolidPattern">
+                            <color alpha="255">
+                                <red>0</red>
+                                <green>0</green>
+                                <blue>0</blue>
+                            </color>
+                        </brush>
+                    </colorrole>
+                    <colorrole role="PlaceholderText">
+                        <brush brushstyle="SolidPattern">
+                            <color alpha="128">
+                                <red>0</red>
+                                <green>0</green>
+                                <blue>0</blue>
+                            </color>
+                        </brush>
+                    </colorrole>
+                </disabled>
+            </palette>
+        </property>
+        <property name="windowTitle">
+            <string>3D Geometric Shapes Calculator</string>
+        </property>
+        <property name="windowOpacity">
+            <double>1.000000000000000</double>
+        </property>
+        <widget class="QWidget" name="MenuClass" native="true">
+            <property name="geometry">
+                <rect>
+                    <x>40</x>
+                    <y>0</y>
+                    <width>621</width>
+                    <height>471</height>
+                </rect>
+            </property>
+            <property name="autoFillBackground">
+                <bool>true</bool>
+            </property>
+            <widget class="QLabel" name="label_9">
+                <property name="geometry">
+                    <rect>
+                        <x>500</x>
+                        <y>130</y>
+                        <width>91</width>
+                        <height>91</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string />
+                </property>
+                <property name="pixmap">
+                    <pixmap>cone.png</pixmap>
+                </property>
+                <property name="scaledContents">
+                    <bool>true</bool>
+                </property>
+            </widget>
+            <widget class="QLabel" name="label_10">
+                <property name="geometry">
+                    <rect>
+                        <x>500</x>
+                        <y>300</y>
+                        <width>91</width>
+                        <height>91</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string />
+                </property>
+                <property name="pixmap">
+                    <pixmap>tetrahedron.png</pixmap>
+                </property>
+                <property name="scaledContents">
+                    <bool>true</bool>
+                </property>
+            </widget>
+            <widget class="QPushButton" name="cylinder">
+                <property name="geometry">
+                    <rect>
+                        <x>20</x>
+                        <y>410</y>
+                        <width>93</width>
+                        <height>28</height>
+                    </rect>
+                </property>
+                <property name="cursor">
+                    <cursorShape>PointingHandCursor</cursorShape>
+                </property>
+                <property name="text">
+                    <string>Cylinder</string>
+                </property>
+            </widget>
+            <widget class="QPushButton" name="tetrahedron">
+                <property name="geometry">
+                    <rect>
+                        <x>500</x>
+                        <y>410</y>
+                        <width>93</width>
+                        <height>28</height>
+                    </rect>
+                </property>
+                <property name="cursor">
+                    <cursorShape>PointingHandCursor</cursorShape>
+                </property>
+                <property name="text">
+                    <string>Tetrahedron</string>
+                </property>
+            </widget>
+            <widget class="QPushButton" name="cube">
+                <property name="geometry">
+                    <rect>
+                        <x>20</x>
+                        <y>240</y>
+                        <width>93</width>
+                        <height>28</height>
+                    </rect>
+                </property>
+                <property name="cursor">
+                    <cursorShape>PointingHandCursor</cursorShape>
+                </property>
+                <property name="text">
+                    <string>Cube</string>
+                </property>
+            </widget>
+            <widget class="QLabel" name="label_11">
+                <property name="geometry">
+                    <rect>
+                        <x>260</x>
+                        <y>130</y>
+                        <width>91</width>
+                        <height>91</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string />
+                </property>
+                <property name="pixmap">
+                    <pixmap>sphere.png</pixmap>
+                </property>
+                <property name="scaledContents">
+                    <bool>true</bool>
+                </property>
+            </widget>
+            <widget class="Line" name="line_2">
+                <property name="geometry">
+                    <rect>
+                        <x>0</x>
+                        <y>100</y>
+                        <width>621</width>
+                        <height>20</height>
+                    </rect>
+                </property>
+                <property name="orientation">
+                    <enum>Qt::Horizontal</enum>
+                </property>
+            </widget>
+            <widget class="QLabel" name="label_12">
+                <property name="geometry">
+                    <rect>
+                        <x>120</x>
+                        <y>0</y>
+                        <width>381</width>
+                        <height>60</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <pointsize>14</pointsize>
+                        <weight>75</weight>
+                        <bold>true</bold>
+                    </font>
+                </property>
+                <property name="text">
+                    <string>3D Geometric Shapes Calculator</string>
+                </property>
+            </widget>
+            <widget class="QLabel" name="label_13">
+                <property name="geometry">
+                    <rect>
+                        <x>20</x>
+                        <y>130</y>
+                        <width>91</width>
+                        <height>91</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string />
+                </property>
+                <property name="pixmap">
+                    <pixmap>cube.png</pixmap>
+                </property>
+                <property name="scaledContents">
+                    <bool>true</bool>
+                </property>
+                <property name="indent">
+                    <number>1</number>
+                </property>
+            </widget>
+            <widget class="QPushButton" name="ellipsoid">
+                <property name="geometry">
+                    <rect>
+                        <x>260</x>
+                        <y>410</y>
+                        <width>93</width>
+                        <height>28</height>
+                    </rect>
+                </property>
+                <property name="cursor">
+                    <cursorShape>PointingHandCursor</cursorShape>
+                </property>
+                <property name="text">
+                    <string>Ellipsoid</string>
+                </property>
+            </widget>
+            <widget class="QPushButton" name="cone">
+                <property name="geometry">
+                    <rect>
+                        <x>500</x>
+                        <y>240</y>
+                        <width>93</width>
+                        <height>28</height>
+                    </rect>
+                </property>
+                <property name="cursor">
+                    <cursorShape>PointingHandCursor</cursorShape>
+                </property>
+                <property name="text">
+                    <string>Cone</string>
+                </property>
+            </widget>
+            <widget class="QLabel" name="label_14">
+                <property name="geometry">
+                    <rect>
+                        <x>20</x>
+                        <y>300</y>
+                        <width>91</width>
+                        <height>91</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string />
+                </property>
+                <property name="pixmap">
+                    <pixmap>cylinder.png</pixmap>
+                </property>
+                <property name="scaledContents">
+                    <bool>true</bool>
+                </property>
+                <property name="indent">
+                    <number>1</number>
+                </property>
+            </widget>
+            <widget class="QLabel" name="label_15">
+                <property name="geometry">
+                    <rect>
+                        <x>230</x>
+                        <y>60</y>
+                        <width>171</width>
+                        <height>30</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <pointsize>12</pointsize>
+                        <italic>true</italic>
+                    </font>
+                </property>
+                <property name="text">
+                    <string>by: Vincent Zhang</string>
+                </property>
+            </widget>
+            <widget class="QLabel" name="label_16">
+                <property name="geometry">
+                    <rect>
+                        <x>240</x>
+                        <y>300</y>
+                        <width>131</width>
+                        <height>91</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string />
+                </property>
+                <property name="pixmap">
+                    <pixmap>ellipsoid.png</pixmap>
+                </property>
+                <property name="scaledContents">
+                    <bool>true</bool>
+                </property>
+            </widget>
+            <widget class="QPushButton" name="sphere">
+                <property name="geometry">
+                    <rect>
+                        <x>260</x>
+                        <y>240</y>
+                        <width>93</width>
+                        <height>28</height>
+                    </rect>
+                </property>
+                <property name="cursor">
+                    <cursorShape>PointingHandCursor</cursorShape>
+                </property>
+                <property name="text">
+                    <string>Sphere</string>
+                </property>
+            </widget>
+        </widget>
+        <widget class="QWidget" name="CubeClass" native="true">
+            <property name="geometry">
+                <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>701</width>
+                    <height>501</height>
+                </rect>
+            </property>
+            <property name="autoFillBackground">
+                <bool>true</bool>
+            </property>
+            <widget class="QLabel" name="label">
+                <property name="geometry">
+                    <rect>
+                        <x>470</x>
+                        <y>120</y>
+                        <width>171</width>
+                        <height>171</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string />
+                </property>
+                <property name="pixmap">
+                    <pixmap>cube.png</pixmap>
+                </property>
+                <property name="scaledContents">
+                    <bool>true</bool>
+                </property>
+            </widget>
+            <widget class="QLabel" name="label_2">
+                <property name="geometry">
+                    <rect>
+                        <x>30</x>
+                        <y>80</y>
+                        <width>131</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <pointsize>15</pointsize>
+                    </font>
+                </property>
+                <property name="text">
+                    <string>a (edge) =</string>
+                </property>
+            </widget>
+            <widget class="Line" name="line">
+                <property name="geometry">
+                    <rect>
+                        <x>410</x>
+                        <y>10</y>
+                        <width>20</width>
+                        <height>471</height>
+                    </rect>
+                </property>
+                <property name="orientation">
+                    <enum>Qt::Vertical</enum>
+                </property>
+            </widget>
+            <widget class="QLabel" name="label_3">
+                <property name="geometry">
+                    <rect>
+                        <x>20</x>
+                        <y>330</y>
+                        <width>81</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <pointsize>15</pointsize>
+                    </font>
+                </property>
+                <property name="text">
+                    <string>SA =</string>
+                </property>
+            </widget>
+            <widget class="QLCDNumber" name="cuSurfaceArea">
+                <property name="geometry">
+                    <rect>
+                        <x>90</x>
+                        <y>330</y>
+                        <width>311</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <family>MS UI Gothic</family>
+                        <pointsize>10</pointsize>
+                    </font>
+                </property>
+                <property name="smallDecimalPoint">
+                    <bool>true</bool>
+                </property>
+                <property name="digitCount">
+                    <number>15</number>
+                </property>
+                <property name="mode">
+                    <enum>QLCDNumber::Dec</enum>
+                </property>
+                <property name="intValue" stdset="0">
+                    <number>0</number>
+                </property>
+            </widget>
+            <widget class="QDoubleSpinBox" name="cuLength">
+                <property name="geometry">
+                    <rect>
+                        <x>170</x>
+                        <y>80</y>
+                        <width>221</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <pointsize>15</pointsize>
+                    </font>
+                </property>
+                <property name="maximum">
+                    <double>99999999999999.000000000000000</double>
+                </property>
+                <property name="singleStep">
+                    <double>0.010000000000000</double>
+                </property>
+            </widget>
+            <widget class="QLabel" name="label_4">
+                <property name="geometry">
+                    <rect>
+                        <x>30</x>
+                        <y>410</y>
+                        <width>51</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <pointsize>15</pointsize>
+                    </font>
+                </property>
+                <property name="text">
+                    <string>V =</string>
+                </property>
+            </widget>
+            <widget class="QLCDNumber" name="cuVolume">
+                <property name="enabled">
+                    <bool>true</bool>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>90</x>
+                        <y>410</y>
+                        <width>311</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <pointsize>10</pointsize>
+                    </font>
+                </property>
+                <property name="autoFillBackground">
+                    <bool>false</bool>
+                </property>
+                <property name="smallDecimalPoint">
+                    <bool>true</bool>
+                </property>
+                <property name="digitCount">
+                    <number>15</number>
+                </property>
+                <property name="mode">
+                    <enum>QLCDNumber::Dec</enum>
+                </property>
+                <property name="segmentStyle">
+                    <enum>QLCDNumber::Filled</enum>
+                </property>
+                <property name="value" stdset="0">
+                    <double>0.000000000000000</double>
+                </property>
+                <property name="intValue" stdset="0">
+                    <number>0</number>
+                </property>
+            </widget>
+            <widget class="Line" name="line_3">
+                <property name="geometry">
+                    <rect>
+                        <x>10</x>
+                        <y>280</y>
+                        <width>411</width>
+                        <height>16</height>
+                    </rect>
+                </property>
+                <property name="orientation">
+                    <enum>Qt::Horizontal</enum>
+                </property>
+            </widget>
+            <widget class="QCommandLinkButton" name="cuBack">
+                <property name="geometry">
+                    <rect>
+                        <x>450</x>
+                        <y>360</y>
+                        <width>222</width>
+                        <height>48</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <family>Segoe UI</family>
+                        <pointsize>14</pointsize>
+                    </font>
+                </property>
+                <property name="text">
+                    <string>Back to Menu</string>
+                </property>
+            </widget>
+        </widget>
+        <widget class="QWidget" name="SphereClass" native="true">
+            <property name="geometry">
+                <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>701</width>
+                    <height>501</height>
+                </rect>
+            </property>
+            <property name="autoFillBackground">
+                <bool>true</bool>
+            </property>
+            <widget class="QLabel" name="label_5">
+                <property name="geometry">
+                    <rect>
+                        <x>470</x>
+                        <y>120</y>
+                        <width>171</width>
+                        <height>171</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <family>MS Shell Dlg 2</family>
+                    </font>
+                </property>
+                <property name="text">
+                    <string />
+                </property>
+                <property name="pixmap">
+                    <pixmap>sphere.png</pixmap>
+                </property>
+                <property name="scaledContents">
+                    <bool>true</bool>
+                </property>
+            </widget>
+            <widget class="QLabel" name="label_6">
+                <property name="geometry">
+                    <rect>
+                        <x>30</x>
+                        <y>80</y>
+                        <width>131</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <pointsize>15</pointsize>
+                    </font>
+                </property>
+                <property name="text">
+                    <string>r (radius) =</string>
+                </property>
+            </widget>
+            <widget class="Line" name="line_4">
+                <property name="geometry">
+                    <rect>
+                        <x>410</x>
+                        <y>10</y>
+                        <width>20</width>
+                        <height>471</height>
+                    </rect>
+                </property>
+                <property name="orientation">
+                    <enum>Qt::Vertical</enum>
+                </property>
+            </widget>
+            <widget class="QLabel" name="label_7">
+                <property name="geometry">
+                    <rect>
+                        <x>20</x>
+                        <y>330</y>
+                        <width>81</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <pointsize>15</pointsize>
+                    </font>
+                </property>
+                <property name="text">
+                    <string>SA =</string>
+                </property>
+            </widget>
+            <widget class="QLCDNumber" name="spSurfaceArea">
+                <property name="geometry">
+                    <rect>
+                        <x>90</x>
+                        <y>330</y>
+                        <width>311</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <family>MS UI Gothic</family>
+                        <pointsize>10</pointsize>
+                    </font>
+                </property>
+                <property name="smallDecimalPoint">
+                    <bool>true</bool>
+                </property>
+                <property name="digitCount">
+                    <number>15</number>
+                </property>
+                <property name="mode">
+                    <enum>QLCDNumber::Dec</enum>
+                </property>
+                <property name="segmentStyle">
+                    <enum>QLCDNumber::Filled</enum>
+                </property>
+                <property name="intValue" stdset="0">
+                    <number>0</number>
+                </property>
+            </widget>
+            <widget class="QDoubleSpinBox" name="spRadius">
+                <property name="geometry">
+                    <rect>
+                        <x>170</x>
+                        <y>80</y>
+                        <width>221</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <pointsize>15</pointsize>
+                    </font>
+                </property>
+                <property name="maximum">
+                    <double>99999999999999.000000000000000</double>
+                </property>
+                <property name="singleStep">
+                    <double>0.010000000000000</double>
+                </property>
+            </widget>
+            <widget class="QLabel" name="label_8">
+                <property name="geometry">
+                    <rect>
+                        <x>30</x>
+                        <y>410</y>
+                        <width>51</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <pointsize>15</pointsize>
+                    </font>
+                </property>
+                <property name="text">
+                    <string>V =</string>
+                </property>
+            </widget>
+            <widget class="QLCDNumber" name="spVolume">
+                <property name="geometry">
+                    <rect>
+                        <x>90</x>
+                        <y>410</y>
+                        <width>311</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <pointsize>10</pointsize>
+                    </font>
+                </property>
+                <property name="smallDecimalPoint">
+                    <bool>true</bool>
+                </property>
+                <property name="digitCount">
+                    <number>15</number>
+                </property>
+                <property name="mode">
+                    <enum>QLCDNumber::Dec</enum>
+                </property>
+                <property name="value" stdset="0">
+                    <double>0.000000000000000</double>
+                </property>
+                <property name="intValue" stdset="0">
+                    <number>0</number>
+                </property>
+            </widget>
+            <widget class="Line" name="line_5">
+                <property name="geometry">
+                    <rect>
+                        <x>10</x>
+                        <y>280</y>
+                        <width>411</width>
+                        <height>16</height>
+                    </rect>
+                </property>
+                <property name="orientation">
+                    <enum>Qt::Horizontal</enum>
+                </property>
+            </widget>
+            <widget class="QCommandLinkButton" name="spBack">
+                <property name="geometry">
+                    <rect>
+                        <x>450</x>
+                        <y>360</y>
+                        <width>222</width>
+                        <height>48</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <family>Segoe UI</family>
+                        <pointsize>14</pointsize>
+                    </font>
+                </property>
+                <property name="text">
+                    <string>Back to Menu</string>
+                </property>
+            </widget>
+        </widget>
+        <widget class="QWidget" name="CylinderClass" native="true">
+            <property name="geometry">
+                <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>701</width>
+                    <height>501</height>
+                </rect>
+            </property>
+            <property name="autoFillBackground">
+                <bool>true</bool>
+            </property>
+            <widget class="QLabel" name="label_17">
+                <property name="geometry">
+                    <rect>
+                        <x>470</x>
+                        <y>90</y>
+                        <width>171</width>
+                        <height>201</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <family>MS Shell Dlg 2</family>
+                    </font>
+                </property>
+                <property name="text">
+                    <string />
+                </property>
+                <property name="pixmap">
+                    <pixmap>cylinder.png</pixmap>
+                </property>
+                <property name="scaledContents">
+                    <bool>true</bool>
+                </property>
+            </widget>
+            <widget class="QLabel" name="label_18">
+                <property name="geometry">
+                    <rect>
+                        <x>30</x>
+                        <y>80</y>
+                        <width>131</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <pointsize>15</pointsize>
+                    </font>
+                </property>
+                <property name="text">
+                    <string>r (radius) =</string>
+                </property>
+            </widget>
+            <widget class="Line" name="line_6">
+                <property name="geometry">
+                    <rect>
+                        <x>410</x>
+                        <y>10</y>
+                        <width>20</width>
+                        <height>471</height>
+                    </rect>
+                </property>
+                <property name="orientation">
+                    <enum>Qt::Vertical</enum>
+                </property>
+            </widget>
+            <widget class="QLabel" name="label_19">
+                <property name="geometry">
+                    <rect>
+                        <x>20</x>
+                        <y>330</y>
+                        <width>81</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <pointsize>15</pointsize>
+                    </font>
+                </property>
+                <property name="text">
+                    <string>SA =</string>
+                </property>
+            </widget>
+            <widget class="QLCDNumber" name="cySurfaceArea">
+                <property name="geometry">
+                    <rect>
+                        <x>90</x>
+                        <y>330</y>
+                        <width>311</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <family>MS UI Gothic</family>
+                        <pointsize>10</pointsize>
+                    </font>
+                </property>
+                <property name="smallDecimalPoint">
+                    <bool>true</bool>
+                </property>
+                <property name="digitCount">
+                    <number>15</number>
+                </property>
+                <property name="mode">
+                    <enum>QLCDNumber::Dec</enum>
+                </property>
+                <property name="segmentStyle">
+                    <enum>QLCDNumber::Filled</enum>
+                </property>
+                <property name="intValue" stdset="0">
+                    <number>0</number>
+                </property>
+            </widget>
+            <widget class="QDoubleSpinBox" name="cyRadius">
+                <property name="geometry">
+                    <rect>
+                        <x>170</x>
+                        <y>80</y>
+                        <width>221</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <pointsize>15</pointsize>
+                    </font>
+                </property>
+                <property name="maximum">
+                    <double>99999999999999.000000000000000</double>
+                </property>
+                <property name="singleStep">
+                    <double>0.010000000000000</double>
+                </property>
+            </widget>
+            <widget class="QLabel" name="label_20">
+                <property name="geometry">
+                    <rect>
+                        <x>30</x>
+                        <y>410</y>
+                        <width>51</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <pointsize>15</pointsize>
+                    </font>
+                </property>
+                <property name="text">
+                    <string>V =</string>
+                </property>
+            </widget>
+            <widget class="QLCDNumber" name="cyVolume">
+                <property name="geometry">
+                    <rect>
+                        <x>90</x>
+                        <y>410</y>
+                        <width>311</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <pointsize>10</pointsize>
+                    </font>
+                </property>
+                <property name="smallDecimalPoint">
+                    <bool>true</bool>
+                </property>
+                <property name="digitCount">
+                    <number>15</number>
+                </property>
+                <property name="mode">
+                    <enum>QLCDNumber::Dec</enum>
+                </property>
+                <property name="value" stdset="0">
+                    <double>0.000000000000000</double>
+                </property>
+                <property name="intValue" stdset="0">
+                    <number>0</number>
+                </property>
+            </widget>
+            <widget class="Line" name="line_7">
+                <property name="geometry">
+                    <rect>
+                        <x>10</x>
+                        <y>280</y>
+                        <width>411</width>
+                        <height>16</height>
+                    </rect>
+                </property>
+                <property name="orientation">
+                    <enum>Qt::Horizontal</enum>
+                </property>
+            </widget>
+            <widget class="QCommandLinkButton" name="cyBack">
+                <property name="geometry">
+                    <rect>
+                        <x>450</x>
+                        <y>360</y>
+                        <width>222</width>
+                        <height>48</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <family>Segoe UI</family>
+                        <pointsize>14</pointsize>
+                    </font>
+                </property>
+                <property name="text">
+                    <string>Back to Menu</string>
+                </property>
+            </widget>
+            <widget class="QLabel" name="label_21">
+                <property name="geometry">
+                    <rect>
+                        <x>30</x>
+                        <y>140</y>
+                        <width>131</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <pointsize>15</pointsize>
+                    </font>
+                </property>
+                <property name="text">
+                    <string>h (height) =</string>
+                </property>
+            </widget>
+            <widget class="QDoubleSpinBox" name="cyHeight">
+                <property name="geometry">
+                    <rect>
+                        <x>170</x>
+                        <y>140</y>
+                        <width>221</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <pointsize>15</pointsize>
+                    </font>
+                </property>
+                <property name="maximum">
+                    <double>99999999999999.000000000000000</double>
+                </property>
+                <property name="singleStep">
+                    <double>0.010000000000000</double>
+                </property>
+            </widget>
+        </widget>
+        <widget class="QWidget" name="ConeClass" native="true">
+            <property name="geometry">
+                <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>701</width>
+                    <height>501</height>
+                </rect>
+            </property>
+            <property name="autoFillBackground">
+                <bool>true</bool>
+            </property>
+            <widget class="QLabel" name="label_22">
+                <property name="geometry">
+                    <rect>
+                        <x>470</x>
+                        <y>90</y>
+                        <width>171</width>
+                        <height>201</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <family>MS Shell Dlg 2</family>
+                    </font>
+                </property>
+                <property name="text">
+                    <string />
+                </property>
+                <property name="pixmap">
+                    <pixmap>cone.png</pixmap>
+                </property>
+                <property name="scaledContents">
+                    <bool>true</bool>
+                </property>
+            </widget>
+            <widget class="QLabel" name="label_23">
+                <property name="geometry">
+                    <rect>
+                        <x>30</x>
+                        <y>80</y>
+                        <width>131</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <pointsize>15</pointsize>
+                    </font>
+                </property>
+                <property name="text">
+                    <string>r (radius) =</string>
+                </property>
+            </widget>
+            <widget class="Line" name="line_8">
+                <property name="geometry">
+                    <rect>
+                        <x>410</x>
+                        <y>10</y>
+                        <width>20</width>
+                        <height>471</height>
+                    </rect>
+                </property>
+                <property name="orientation">
+                    <enum>Qt::Vertical</enum>
+                </property>
+            </widget>
+            <widget class="QLabel" name="label_24">
+                <property name="geometry">
+                    <rect>
+                        <x>20</x>
+                        <y>330</y>
+                        <width>81</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <pointsize>15</pointsize>
+                    </font>
+                </property>
+                <property name="text">
+                    <string>SA =</string>
+                </property>
+            </widget>
+            <widget class="QLCDNumber" name="coSurfaceArea">
+                <property name="geometry">
+                    <rect>
+                        <x>90</x>
+                        <y>330</y>
+                        <width>311</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <family>MS UI Gothic</family>
+                        <pointsize>10</pointsize>
+                    </font>
+                </property>
+                <property name="smallDecimalPoint">
+                    <bool>true</bool>
+                </property>
+                <property name="digitCount">
+                    <number>15</number>
+                </property>
+                <property name="mode">
+                    <enum>QLCDNumber::Dec</enum>
+                </property>
+                <property name="segmentStyle">
+                    <enum>QLCDNumber::Filled</enum>
+                </property>
+                <property name="intValue" stdset="0">
+                    <number>0</number>
+                </property>
+            </widget>
+            <widget class="QDoubleSpinBox" name="coRadius">
+                <property name="geometry">
+                    <rect>
+                        <x>170</x>
+                        <y>80</y>
+                        <width>221</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <pointsize>15</pointsize>
+                    </font>
+                </property>
+                <property name="maximum">
+                    <double>99999999999999.000000000000000</double>
+                </property>
+                <property name="singleStep">
+                    <double>0.010000000000000</double>
+                </property>
+            </widget>
+            <widget class="QLabel" name="label_25">
+                <property name="geometry">
+                    <rect>
+                        <x>30</x>
+                        <y>410</y>
+                        <width>51</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <pointsize>15</pointsize>
+                    </font>
+                </property>
+                <property name="text">
+                    <string>V =</string>
+                </property>
+            </widget>
+            <widget class="QLCDNumber" name="coVolume">
+                <property name="geometry">
+                    <rect>
+                        <x>90</x>
+                        <y>410</y>
+                        <width>311</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <pointsize>10</pointsize>
+                    </font>
+                </property>
+                <property name="smallDecimalPoint">
+                    <bool>true</bool>
+                </property>
+                <property name="digitCount">
+                    <number>15</number>
+                </property>
+                <property name="mode">
+                    <enum>QLCDNumber::Dec</enum>
+                </property>
+                <property name="value" stdset="0">
+                    <double>0.000000000000000</double>
+                </property>
+                <property name="intValue" stdset="0">
+                    <number>0</number>
+                </property>
+            </widget>
+            <widget class="Line" name="line_9">
+                <property name="geometry">
+                    <rect>
+                        <x>10</x>
+                        <y>280</y>
+                        <width>411</width>
+                        <height>16</height>
+                    </rect>
+                </property>
+                <property name="orientation">
+                    <enum>Qt::Horizontal</enum>
+                </property>
+            </widget>
+            <widget class="QCommandLinkButton" name="coBack">
+                <property name="geometry">
+                    <rect>
+                        <x>450</x>
+                        <y>360</y>
+                        <width>222</width>
+                        <height>48</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <family>Segoe UI</family>
+                        <pointsize>14</pointsize>
+                    </font>
+                </property>
+                <property name="text">
+                    <string>Back to Menu</string>
+                </property>
+            </widget>
+            <widget class="QLabel" name="label_26">
+                <property name="geometry">
+                    <rect>
+                        <x>30</x>
+                        <y>140</y>
+                        <width>131</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <pointsize>15</pointsize>
+                    </font>
+                </property>
+                <property name="text">
+                    <string>h (height) =</string>
+                </property>
+            </widget>
+            <widget class="QDoubleSpinBox" name="coHeight">
+                <property name="geometry">
+                    <rect>
+                        <x>170</x>
+                        <y>140</y>
+                        <width>221</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <pointsize>15</pointsize>
+                    </font>
+                </property>
+                <property name="maximum">
+                    <double>99999999999999.000000000000000</double>
+                </property>
+                <property name="singleStep">
+                    <double>0.010000000000000</double>
+                </property>
+            </widget>
+        </widget>
+        <widget class="QWidget" name="TetrahedronClass" native="true">
+            <property name="geometry">
+                <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>701</width>
+                    <height>501</height>
+                </rect>
+            </property>
+            <property name="autoFillBackground">
+                <bool>true</bool>
+            </property>
+            <widget class="QLabel" name="label_27">
+                <property name="geometry">
+                    <rect>
+                        <x>470</x>
+                        <y>120</y>
+                        <width>171</width>
+                        <height>171</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <family>MS Shell Dlg 2</family>
+                    </font>
+                </property>
+                <property name="text">
+                    <string />
+                </property>
+                <property name="pixmap">
+                    <pixmap>tetrahedron.png</pixmap>
+                </property>
+                <property name="scaledContents">
+                    <bool>true</bool>
+                </property>
+            </widget>
+            <widget class="QLabel" name="label_28">
+                <property name="geometry">
+                    <rect>
+                        <x>30</x>
+                        <y>80</y>
+                        <width>131</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <pointsize>15</pointsize>
+                    </font>
+                </property>
+                <property name="text">
+                    <string>a (edge) = </string>
+                </property>
+            </widget>
+            <widget class="Line" name="line_10">
+                <property name="geometry">
+                    <rect>
+                        <x>410</x>
+                        <y>10</y>
+                        <width>20</width>
+                        <height>471</height>
+                    </rect>
+                </property>
+                <property name="orientation">
+                    <enum>Qt::Vertical</enum>
+                </property>
+            </widget>
+            <widget class="QLabel" name="label_29">
+                <property name="geometry">
+                    <rect>
+                        <x>20</x>
+                        <y>330</y>
+                        <width>81</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <pointsize>15</pointsize>
+                    </font>
+                </property>
+                <property name="text">
+                    <string>SA =</string>
+                </property>
+            </widget>
+            <widget class="QLCDNumber" name="teArea">
+                <property name="geometry">
+                    <rect>
+                        <x>90</x>
+                        <y>330</y>
+                        <width>311</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <family>MS UI Gothic</family>
+                        <pointsize>10</pointsize>
+                    </font>
+                </property>
+                <property name="smallDecimalPoint">
+                    <bool>true</bool>
+                </property>
+                <property name="digitCount">
+                    <number>15</number>
+                </property>
+                <property name="mode">
+                    <enum>QLCDNumber::Dec</enum>
+                </property>
+                <property name="segmentStyle">
+                    <enum>QLCDNumber::Filled</enum>
+                </property>
+                <property name="intValue" stdset="0">
+                    <number>0</number>
+                </property>
+            </widget>
+            <widget class="QDoubleSpinBox" name="teEdge">
+                <property name="geometry">
+                    <rect>
+                        <x>170</x>
+                        <y>80</y>
+                        <width>221</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <pointsize>15</pointsize>
+                    </font>
+                </property>
+                <property name="maximum">
+                    <double>99999999999999.000000000000000</double>
+                </property>
+                <property name="singleStep">
+                    <double>0.010000000000000</double>
+                </property>
+            </widget>
+            <widget class="QLabel" name="label_30">
+                <property name="geometry">
+                    <rect>
+                        <x>30</x>
+                        <y>410</y>
+                        <width>51</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <pointsize>15</pointsize>
+                    </font>
+                </property>
+                <property name="text">
+                    <string>V =</string>
+                </property>
+            </widget>
+            <widget class="QLCDNumber" name="teVolume">
+                <property name="geometry">
+                    <rect>
+                        <x>90</x>
+                        <y>410</y>
+                        <width>311</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <pointsize>10</pointsize>
+                    </font>
+                </property>
+                <property name="smallDecimalPoint">
+                    <bool>true</bool>
+                </property>
+                <property name="digitCount">
+                    <number>15</number>
+                </property>
+                <property name="mode">
+                    <enum>QLCDNumber::Dec</enum>
+                </property>
+                <property name="value" stdset="0">
+                    <double>0.000000000000000</double>
+                </property>
+                <property name="intValue" stdset="0">
+                    <number>0</number>
+                </property>
+            </widget>
+            <widget class="Line" name="line_11">
+                <property name="geometry">
+                    <rect>
+                        <x>10</x>
+                        <y>280</y>
+                        <width>411</width>
+                        <height>16</height>
+                    </rect>
+                </property>
+                <property name="orientation">
+                    <enum>Qt::Horizontal</enum>
+                </property>
+            </widget>
+            <widget class="QCommandLinkButton" name="teBack">
+                <property name="geometry">
+                    <rect>
+                        <x>450</x>
+                        <y>360</y>
+                        <width>222</width>
+                        <height>48</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <family>Segoe UI</family>
+                        <pointsize>14</pointsize>
+                    </font>
+                </property>
+                <property name="text">
+                    <string>Back to Menu</string>
+                </property>
+            </widget>
+        </widget>
+        <widget class="QWidget" name="EllipsoidClass" native="true">
+            <property name="geometry">
+                <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>701</width>
+                    <height>501</height>
+                </rect>
+            </property>
+            <property name="autoFillBackground">
+                <bool>true</bool>
+            </property>
+            <widget class="QLabel" name="label_31">
+                <property name="geometry">
+                    <rect>
+                        <x>440</x>
+                        <y>140</y>
+                        <width>231</width>
+                        <height>151</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <family>MS Shell Dlg 2</family>
+                    </font>
+                </property>
+                <property name="text">
+                    <string />
+                </property>
+                <property name="pixmap">
+                    <pixmap>ellipsoid.png</pixmap>
+                </property>
+                <property name="scaledContents">
+                    <bool>true</bool>
+                </property>
+            </widget>
+            <widget class="QLabel" name="label_32">
+                <property name="geometry">
+                    <rect>
+                        <x>30</x>
+                        <y>80</y>
+                        <width>131</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <pointsize>15</pointsize>
+                    </font>
+                </property>
+                <property name="text">
+                    <string>a (axis) =</string>
+                </property>
+            </widget>
+            <widget class="Line" name="line_12">
+                <property name="geometry">
+                    <rect>
+                        <x>410</x>
+                        <y>10</y>
+                        <width>20</width>
+                        <height>471</height>
+                    </rect>
+                </property>
+                <property name="orientation">
+                    <enum>Qt::Vertical</enum>
+                </property>
+            </widget>
+            <widget class="QLabel" name="label_33">
+                <property name="geometry">
+                    <rect>
+                        <x>20</x>
+                        <y>330</y>
+                        <width>81</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <pointsize>15</pointsize>
+                    </font>
+                </property>
+                <property name="text">
+                    <string>SA =</string>
+                </property>
+            </widget>
+            <widget class="QLCDNumber" name="elArea">
+                <property name="geometry">
+                    <rect>
+                        <x>90</x>
+                        <y>330</y>
+                        <width>311</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <family>MS UI Gothic</family>
+                        <pointsize>10</pointsize>
+                    </font>
+                </property>
+                <property name="smallDecimalPoint">
+                    <bool>true</bool>
+                </property>
+                <property name="digitCount">
+                    <number>15</number>
+                </property>
+                <property name="mode">
+                    <enum>QLCDNumber::Dec</enum>
+                </property>
+                <property name="segmentStyle">
+                    <enum>QLCDNumber::Filled</enum>
+                </property>
+                <property name="intValue" stdset="0">
+                    <number>0</number>
+                </property>
+            </widget>
+            <widget class="QDoubleSpinBox" name="elMajor">
+                <property name="geometry">
+                    <rect>
+                        <x>170</x>
+                        <y>80</y>
+                        <width>221</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <pointsize>15</pointsize>
+                    </font>
+                </property>
+                <property name="maximum">
+                    <double>99999999999999.000000000000000</double>
+                </property>
+                <property name="singleStep">
+                    <double>0.010000000000000</double>
+                </property>
+            </widget>
+            <widget class="QLabel" name="label_34">
+                <property name="geometry">
+                    <rect>
+                        <x>30</x>
+                        <y>410</y>
+                        <width>51</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <pointsize>15</pointsize>
+                    </font>
+                </property>
+                <property name="text">
+                    <string>V =</string>
+                </property>
+            </widget>
+            <widget class="QLCDNumber" name="elVolume">
+                <property name="geometry">
+                    <rect>
+                        <x>90</x>
+                        <y>410</y>
+                        <width>311</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <pointsize>10</pointsize>
+                    </font>
+                </property>
+                <property name="smallDecimalPoint">
+                    <bool>true</bool>
+                </property>
+                <property name="digitCount">
+                    <number>15</number>
+                </property>
+                <property name="mode">
+                    <enum>QLCDNumber::Dec</enum>
+                </property>
+                <property name="value" stdset="0">
+                    <double>0.000000000000000</double>
+                </property>
+                <property name="intValue" stdset="0">
+                    <number>0</number>
+                </property>
+            </widget>
+            <widget class="Line" name="line_13">
+                <property name="geometry">
+                    <rect>
+                        <x>10</x>
+                        <y>280</y>
+                        <width>411</width>
+                        <height>16</height>
+                    </rect>
+                </property>
+                <property name="orientation">
+                    <enum>Qt::Horizontal</enum>
+                </property>
+            </widget>
+            <widget class="QCommandLinkButton" name="elBack">
+                <property name="geometry">
+                    <rect>
+                        <x>450</x>
+                        <y>360</y>
+                        <width>222</width>
+                        <height>48</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <family>Segoe UI</family>
+                        <pointsize>14</pointsize>
+                    </font>
+                </property>
+                <property name="text">
+                    <string>Back to Menu</string>
+                </property>
+            </widget>
+            <widget class="QLabel" name="label_35">
+                <property name="geometry">
+                    <rect>
+                        <x>30</x>
+                        <y>140</y>
+                        <width>131</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <pointsize>15</pointsize>
+                    </font>
+                </property>
+                <property name="text">
+                    <string>b (axis) =</string>
+                </property>
+            </widget>
+            <widget class="QDoubleSpinBox" name="elMinor">
+                <property name="geometry">
+                    <rect>
+                        <x>170</x>
+                        <y>140</y>
+                        <width>221</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <pointsize>15</pointsize>
+                    </font>
+                </property>
+                <property name="maximum">
+                    <double>99999999999999.000000000000000</double>
+                </property>
+                <property name="singleStep">
+                    <double>0.010000000000000</double>
+                </property>
+            </widget>
+            <widget class="QLabel" name="label_36">
+                <property name="geometry">
+                    <rect>
+                        <x>30</x>
+                        <y>200</y>
+                        <width>131</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <pointsize>15</pointsize>
+                    </font>
+                </property>
+                <property name="text">
+                    <string>c (axis) =</string>
+                </property>
+            </widget>
+            <widget class="QDoubleSpinBox" name="elAxis">
+                <property name="geometry">
+                    <rect>
+                        <x>170</x>
+                        <y>200</y>
+                        <width>221</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <pointsize>15</pointsize>
+                    </font>
+                </property>
+                <property name="maximum">
+                    <double>99999999999999.000000000000000</double>
+                </property>
+                <property name="singleStep">
+                    <double>0.010000000000000</double>
+                </property>
+            </widget>
+        </widget>
+    </widget>
+    <layoutdefault spacing="6" margin="11" />
+    <resources>
+        <include location="calcwidget.qrc" />
+    </resources>
+    <connections />
 </ui>
