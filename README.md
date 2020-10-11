@@ -13,7 +13,7 @@ Because this project uses underlying libraries, cloning this repository will res
 <br>
   <strong>↓ ↓ ↓</strong>
   <br>
-<a class="button" href="https://github.com/VJZ-Corp/3D-Geometric-Shapes-Calculator/files/5360358/3d-geo-calc-release_finalv1.2.5.zip" data-color-scheme="no-preference: light; light: dark; dark: dark;" data-icon="octicon-download" aria-label="Download VJZ-Corp/Qt-Color-Palette-Widget on GitHub">Download</a> <br>
+<a class="button" href="https://github.com/VJZ-Corp/3D-Geometric-Shapes-Calculator/files/5361062/3dgeo-calc-release_finalv2.6.7.zip" data-color-scheme="no-preference: light; light: dark; dark: dark;" data-icon="octicon-download" aria-label="Download VJZ-Corp/Qt-Color-Palette-Widget on GitHub">Download</a> <br>
   <strong>↑ ↑ ↑</strong>
 <div>
 <br>
