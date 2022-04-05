@@ -1,5 +1,5 @@
 # 3D-Geometric-Shapes-Calculator
-Mini widget application that calculates the surface area and volume of common 3D shapes such as cubes, spheres, cones, cylinders, tetrahedrons, and ellipsoids. This project is created by Vincent Zhang using the Qt Framework (C++). (More info can be found in the LICENSE file)
+Mini widget application that calculates the surface area and volume of common 3D shapes such as cubes, spheres, cones, cylinders, tetrahedrons, and ellipsoids. This project is created by bootsareme using the Qt Framework (C++). (More info can be found in the LICENSE file)
 
 <h1>About</h1>
 
